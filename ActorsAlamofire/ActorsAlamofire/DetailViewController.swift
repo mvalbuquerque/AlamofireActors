@@ -12,20 +12,20 @@ class DetailViewController: UIViewController {
     
     
     //current controller IBOutlets
-//    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-//    @IBOutlet weak var dobLabel: UILabel!
-    //Esse
+ 
     @IBOutlet weak var countryLabel: UILabel!
-   
     @IBOutlet weak var descripLabel: UILabel!
+    @IBOutlet weak var dobLabel: UILabel!
+    
     
     //data from previous controller
     var countrySring: String!
     var nameString: String!
     var descriString: String!
     var imgString: String!
+    var dobString: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +45,7 @@ class DetailViewController: UIViewController {
         self.countryLabel.text = countrySring
         self.nameLabel.text = nameString
         self.descripLabel.text = descriString
+        self.dobLabel.text = dobString
        
     
         let imgURL = URL (string: imgString)

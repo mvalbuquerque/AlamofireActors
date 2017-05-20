@@ -15,6 +15,7 @@ class CustomTableViewCell: UITableViewCell {
       @IBOutlet weak var country: UILabel!
       @IBOutlet weak var descri: UILabel!
       @IBOutlet weak var imgViewHome: UIImageView!
+      @IBOutlet weak var dob: UILabel!
     
     //Todo:
     

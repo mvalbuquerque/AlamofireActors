@@ -20,9 +20,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var country = [AnyObject]()
     var descri = [AnyObject]()
     var image = [AnyObject]()
+    var dob = [AnyObject]()
     
     
-    //Todo:
+    //ToDo:
     //    var dob = [AnyObject]()
     //    var height = [AnyObject]()
     //    var spouse = [AnyObject]()
@@ -84,6 +85,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let country = actorArray[indexPath.row]["country"]
         let descri = actorArray[indexPath.row]["description"]
         let image = actorArray[indexPath.row]["image"]
+        let  dob = actorArray[indexPath.row]["dob"]
         
         
         //Todo:
@@ -97,9 +99,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell?.name.text = name as? String
         cell?.country.text = country as? String
         cell?.descri.text = descri as? String
+        cell?.dob.text = dob as? String
         
-        //Todo:
-        
+      
         //Transformando a URL da imagem em Imagem
         let imgURL = URL (string: image as! String)
         if imgURL != nil {
@@ -125,6 +127,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         vc.nameString = actorArray[indexPath.row]["name"] as! String
         vc.descriString = actorArray[indexPath.row]["description"] as! String
         vc.imgString = actorArray[indexPath.row]["image"] as! String
+        vc.dobString = actorArray[indexPath.row]["dob"] as! String
         
         //Abrindo a outra tela em forma de navigation
         self.navigationController?.pushViewController(vc, animated: true)
