@@ -1,4 +1,23 @@
-# AlamofireActors
+#App AlamofireActors
+
 Actors Sample whith Alamofire
 
-This application demonstrates how to access a web api in json format to retrieve its values.
+[![Swift](https://img.shields.io/badge/swift-3-orange.svg?style=flat)](https://developer.apple.com/swift/) 
+
+Hello! 
+
+ Simple application to improve their knowledge in developing Swift 3.0
+
+The idea of the app is simple: Show Actors using Alamofire witch 
+<p align="center">
+  <img src="https://github.com/mvalbuquerque/megasena/blob/master/Tela1.png" width="250"/>
+  
+  <img src="https://github.com/mvalbuquerque/megasena/blob/master/Tela2.png" width="250"/>
+</p>
+
+Tks, 
+
+@mvalbuquerque
+
+> _Note:_ Create in `Xcode 8.1 iOS 10`. 
+
