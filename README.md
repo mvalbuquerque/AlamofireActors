@@ -10,9 +10,9 @@ Hello!
 
 The idea of the app is simple: Show Actors using Alamofire witch 
 <p align="center">
-  <img src="https://github.com/mvalbuquerque/megasena/blob/master/Tela1.png" width="250"/>
+  <img src="https://github.com/mvalbuquerque/AlamofireActors/blob/master/Tela1.png" width="250"/>
   
-  <img src="https://github.com/mvalbuquerque/megasena/blob/master/Tela2.png" width="250"/>
+  <img src="https://github.com/mvalbuquerque/AlamofireActors/blob/master/Tela2.png" width="250"/>
 </p>
 
 Tks, 
