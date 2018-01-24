@@ -2,11 +2,11 @@
 
 Actors Sample whith Alamofire
 
-[![Swift](https://img.shields.io/badge/swift-3-orange.svg?style=flat)](https://developer.apple.com/swift/) 
+[![Swift](https://img.shields.io/badge/swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/) 
 
 Hello! 
 
- Simple application to improve their knowledge in developing Swift 3.0
+ Simple application to improve their knowledge in developing Swift 4
 
 The idea of the app is simple: Show Actors using Alamofire witch 
 <p align="center">
