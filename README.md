@@ -1,4 +1,4 @@
-#App AlamofireActors
+#Challenge App Actors Alamofire Sample
 
 Actors Sample whith Alamofire
 
