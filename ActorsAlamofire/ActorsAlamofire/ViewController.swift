@@ -30,15 +30,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     //    var children = [AnyObject]()
     //    var image = [AnyObject]()
     
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        
-        
-        
+       
         //Acesso ao Json para realizar o resquest
         Alamofire.request("http://microblogging.wingnity.com/JSONParsingTutorial/jsonActors").responseJSON {
             response in
